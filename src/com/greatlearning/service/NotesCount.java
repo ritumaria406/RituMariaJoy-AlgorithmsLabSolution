@@ -5,6 +5,7 @@ public class NotesCount {
 	public void notesCountImplementation(int notes[], int amount)
 	{
 		//notes Counter array  - used to print what all currencies are used
+		
 		int[] notesCounter = new int[notes.length];		
 		try
 		{
@@ -20,6 +21,7 @@ public class NotesCount {
 		//Checking if any remaining amount is left 
 		//If amount is left - Payment cannot be made
 		//If amount =0 then we have enough currencies to pay the amount
+		
 		if(amount > 0)
 		{
 			System.out.println("Exact amount cannot be given with the highest denominations");

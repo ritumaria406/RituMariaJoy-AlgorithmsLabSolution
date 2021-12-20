@@ -4,8 +4,7 @@ import java.util.Scanner;
 public class Transaction {
 
 	private static Scanner sc = new Scanner(System.in);
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+	public static void main(String[] args) {		
 		
 		// Ask the user to enter the size of the transaction array
 		

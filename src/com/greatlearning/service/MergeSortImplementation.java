@@ -1,9 +1,11 @@
 package com.greatlearning.service;
 
 //Merge Sort implementation class
+
 public class MergeSortImplementation {
 	
 	//This method is used to sort the array and divide it into small groups
+	
 	public void sort(int[] arr, int left, int right)
 	{
 		if(left < right) {
@@ -16,6 +18,7 @@ public class MergeSortImplementation {
 	}
 	
 	//This method is used to merge the arrays
+	
 	public void merge(int[] arr, int left, int mid,int right)
 	{
 		int len1 = mid-left +1;
@@ -40,6 +43,7 @@ public class MergeSortImplementation {
 		while (i <len1 && j <len2)
 		{
 			// Used greater than as descending order is required
+			
 			if(leftarr[i]>=rightarr[j])
 			{
 				arr[k] = leftarr[i];

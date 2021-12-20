@@ -11,6 +11,7 @@ public class Main {
 		
 		
 		// Initialize the objects
+		
 		MergeSortImplementation mergeSort = new MergeSortImplementation();
 		NotesCount notes = new NotesCount();
 		
@@ -19,6 +20,7 @@ public class Main {
 		
 		
 		//Initialize the array 
+		
 		int[] currencyArray = new int[sizeOfCurrency];
 		System.out.println("Enter the size of currency denominations");
 		for (int i=0;i<sizeOfCurrency; i++)
